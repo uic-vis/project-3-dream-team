@@ -31,15 +31,15 @@ For the first visualization, we choose a line graph to aggregate ridership over 
 #### Explorations and Findings:
 
 **Single Linked View:** As university students ourselves, we hypothesized that when online schooling began (start of the pandemic) that the ridership at stations at the aforementioned universities would decrease. Examining the interactive line graph indicates that this hypothesis is correct. In 2018, the number of riders increased as the spring semester went on, but in 2020 there was a decrease. This decrease was most likely due to students not being on campus because of online schooling.
-![image1](Images/pic1.png)
+
 ![vid1](Images/vid1.gif)
 
 **Multi-Linked View:** Going into this exploration, we made the hypothesis that electric bikes would be rented when needing to travel long distances because they would be easier to use while classic and docked bikes would be used for longer travel times because they would be more economical. Looking at the bar graph, this hypothesis does not seem correct because docked bikes were the more used bikes in 2020 regardless of distance or amount of time traveled. We believe this may be because of the higher availability of docked bikes at the stations.
-![image2](Images/pic2.png)
+
 ![vid2](Images/vid2.gif)
 
 **Multi-Linked View:** Since this exploration was an extension of the findings that we got from our first univerisity graph. So the only hypothesis that we made was regarding the types of riders, hence we though that there would me more casual riders during the covid era. Though our findings for each universities we got higher rates of divvy members. This was quite surprising but does makes sense because people living in the respective areas and working around the university area would rather take a bike to commute to work other than taking other public transportation. We predict that once covid is over and we Chicago gets its tourists back we would see more of casual riders and less of members.
-![image3](Images/pic3.png)
+
 ![vid3](Images/vid3.gif)
 
 **Spatial Graph:** Our spatial graph for this project was also an extension of our first project heat map. Based of the heatmap from first project we realize that the most popular stations would be in the loop area. Though after aggregating the top fifty stations using the leaflet interface we had the epiphany that most of the station are the in North and South of the loop and only one station that was inside the loop was the buckingham fountain station. Since we graphed the stations stations we believe that riders rode the bikes from outside the loop coming into the loop for the attractions that it has. To further prove this theory would could plot a spatial graph depicting the end stations.
