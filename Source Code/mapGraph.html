@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CS 424 Project 3</title>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="https://d19vzq90twjlae.cloudfront.net/leaflet-0.7/leaflet.css" />
+        <script src="https://d19vzq90twjlae.cloudfront.net/leaflet-0.7/leaflet.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+        <script src="coordList1.js"></script>
+        <script src="mapLeaf2.js"></script>
+    
+        <style>
+           
+            #map {
+                clear: left;
+                justify-content: center;
+                width: 600px;
+                height: 750px;
+            }
+            .float-container{
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+            }
+
+        </style>
+    </head>
+    <body>
+        <h1>CS 424 Project 3 : Divvy Bike</h1>
+        <h3>By : Sylvia Joseph and Kartik Maheshwari</h3>
+        
+        <div class="menuContainer">
+            <div class="menuItem">
+                <a href="index.html">Single Linked View</a>
+            </div>
+            <div class="menuItem">
+                <a href="brushLinked.html">Old Multi Linked View</a>
+            </div>
+            <div class="menuItem">
+                <a href="newMultiLinked.html">New Multi Linked View</a>
+            </div>
+            <div class="menuItem">
+                <a href="mapGraph.html">Spatial View</a>
+            </div>
+        </div>
+        
+        <h4>Top 50 Stations</h4>
+        <div class="float-container">
+            <div id="map"></div>
+        </div>
+        
+        <p> <u> Hypothesis: </u> </p> 
+        <p> More popular in downtown loop area and by the lakeshore. </p>
+        <p> <u> Result: </u> </p>
+        <p> Outskits of downtown were more popular and the south lakeshore. </p>
+    </body>
+</html>

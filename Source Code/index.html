@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CS 424 Project 3</title>
+        <meta charset="utf-8" />
+        <script src="https://d3js.org/d3.v4.js"></script>
+        <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+        <script src="https://d3js.org/d3.v7.min.js"></script>
+        <script src="lineChartData.js"></script>
+        <script src="lineChart5.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+        <style>
+            #chart {
+                justify-content: center;
+            }
+            .float-container{
+                /* border: 3px solid #fff; */
+                padding: 20px;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <h1>CS 424 Project 3 : Divvy Bike</h1>
+        <h3>By : Sylvia Joseph and Kartik Maheshwari</h3>
+        <div class="menuContainer">
+            <div class="menuItem">
+                <a href="index.html">Single Linked View</a>
+            </div>
+            <div class="menuItem">
+                <a href="brushLinked.html">Old Multi Linked View</a>
+            </div>
+            <div class="menuItem">
+                <a href="newMultiLinked.html">New Multi Linked View</a>
+            </div>
+            <div class="menuItem">
+                <a href="mapGraph.html">Spatial View</a>
+            </div>
+        </div>
+        
+        
+        <h4>Popular College Stations in 2018 vs 2020</h4>
+        <div class="float-container">
+            <div class="float-child">
+                <div id="chart2018"></div>
+            </div>
+            <div class="float-child">
+                <div id="chart2020"></div>
+            </div>
+        </div>
+        
+
+        <!-- <p> Test 1 </p> -->
+        <p> <u> Hypothesis: </u> </p>
+        <p> Post Spring-Break ridership will consistently decrease.</p>
+        <p> <u> Result: </u> </p>
+        <p> Correct Hypothesis post March the ridership dropped for most college campuses.</p>
+    </body>
+</html>

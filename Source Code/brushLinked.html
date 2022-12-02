@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CS 424 Project 3</title>
+        <meta charset="utf-8" />
+        <script src="https://d3js.org/d3.v4.js"></script>
+        <!-- Color Scale -->
+        <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+        <script src="https://d3js.org/d3.v7.min.js"></script>
+        <script src="data2018v1.js"></script>
+        <script src="DivvyData.js"></script>
+        <script src="brushLinked.js"></script>
+        
+         <style>
+
+            .float-container{
+                /* border: 3px solid #fff; */
+                padding: 20px;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+            }
+            .float-child{
+                justify-content: center;
+                width: 40%;
+                float: left;
+                padding: 10px;
+                /* border: 2px solid red; */
+            }
+
+        </style>
+    </head>
+    <body>
+        <h1>CS 424 Project 3 : Divvy Bike</h1>
+        <h3>By : Sylvia Joseph and Kartik Maheshwari</h3>
+        
+        <div class="menuContainer">
+            <div class="menuItem">
+                <a href="index.html">Single Linked View</a>
+            </div>
+            <div class="menuItem">
+                <a href="brushLinked.html">Old Multi Linked View</a>
+            </div>
+            <div class="menuItem">
+                <a href="newMultiLinked.html">New Multi Linked View</a>
+            </div>
+            <div class="menuItem">
+                <a href="mapGraph.html">Spatial View</a>
+            </div>
+        </div>
+        <h4>Travel Distance vs Rental Time AND Total Bike Counts</h4>
+        <div class="float-container">
+            <div class="float-child">
+                <div id="scatter"></div>
+            </div>
+            <div class="float-child">
+                <div id="bar"></div>
+            </div>
+        </div>
+
+        <p> <u> Hypothesis: </u> </p> 
+        <p> Electric bikes are rented for longer distance. </p>
+        <p> Classic/Docked Bikes are rented for longer period of time because they are economical.</p>
+        <p> <u> Result: </u> </p>
+        <p> Docked bikes were the popular pick with both longer period of time and distances. </p>
+    </body>
+</html>

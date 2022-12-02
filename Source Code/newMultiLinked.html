@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CS 424 Project 3</title>
+        <meta charset="utf-8" />
+        <script src="https://d3js.org/d3.v4.js"></script>
+        <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+        <script src="newmultiLink2.js"></script>
+        <script src="pieChartData1.js"></script>
+        
+        <style>
+            .float-container{
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+            }
+            .float-child{
+                justify-content: center;
+                width: 40%;
+                float: left;
+                padding: 10px;
+                /* border: 2px solid red; */
+            }
+
+        </style>
+    </head>
+    <body>
+        <h1>CS 424 Project 3 : Divvy Bike</h1>
+        <h3>By : Sylvia Joseph and Kartik Maheshwari</h3>
+
+        <div class="menuContainer">
+            <div class="menuItem">
+                <a href="index.html">Single Linked View</a>
+            </div>
+            <div class="menuItem">
+                <a href="brushLinked.html">Old Multi Linked View</a>
+            </div>
+            <div class="menuItem">
+                <a href="newMultiLinked.html">New Multi Linked View</a>
+            </div>
+            <div class="menuItem">
+                <a href="mapGraph.html">Spatial View</a>
+            </div>
+        </div>
+
+        
+        <h4>University Station Traffic AND Rider Types</h4>
+        <div class="float-container">
+            <div class="float-child">
+                <button onclick="changeToUIC()">UIC</button>
+                <button onclick="changeToDePaul()">DePaul</button>
+                <button onclick="changeToLoyola()">Loyola</button>
+                <div id="my_dataviz"></div>
+            </div>
+            <div class="float-child">
+                <div id="pie_my_dataviz"></div>
+            </div>
+        </div>
+        
+        <p> <u> Hypothesis: </u> </p> 
+        <p> Building upon project 2 hypothesis there would be more casual riders than members.</p>
+        <p> <u> Result: </u> </p>
+        <p> In general more members were riding Divvy than casual riders.</p>
+
+    </body>
+</html>
