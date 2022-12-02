@@ -1,16 +1,16 @@
 ### Link: https://sjosep419.github.io/ 
 
-#CS 424 Visualization and Visual Analytics
-#Final Project:Divvy Bike
+# CS 424 Visualization and Visual Analytics
+# Final Project:Divvy Bike
 
-##Sylvia Joseph and Kartik Maheshwari
-##Professor Miranda
+## Sylvia Joseph and Kartik Maheshwari
+## Professor Miranda
 
 
 
 #### Dataset Description:
 The dataset for this project is the Divvy Bike dataset. The Divvy Bike Company is a bike-sharing company centered in Chicago. They provide CSVs of the data they collect from riders (start/end station, start/end time, member status, etc.) on their website.
- 
+
 https://ride.divvybikes.com/system-data 
 
 
@@ -43,5 +43,6 @@ For the first visualization, we choose a line graph to aggregate ridership over 
 ![vid3](Images/vid3.gif)
 
 **Spatial Graph:** Our spatial graph for this project was also an extension of our first project heat map. Based of the heatmap from first project we realize that the most popular stations would be in the loop area. Though after aggregating the top fifty stations using the leaflet interface we had the epiphany that most of the station are the in North and South of the loop and only one station that was inside the loop was the buckingham fountain station. Since we graphed the stations stations we believe that riders rode the bikes from outside the loop coming into the loop for the attractions that it has. To further prove this theory would could plot a spatial graph depicting the end stations.
+
 ![image4](Images/pic4.png)
 
